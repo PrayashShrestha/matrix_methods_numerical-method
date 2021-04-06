@@ -1,27 +1,67 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
+
+.input-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    line-height: 1.2rem;
+}
+
+.find-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.textarea {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    resize: both;
+    min-height: 40px;
+    line-height: 20px;
+}
+
 .appbar {
-  background-color: rgb(58, 78, 143);
-  height: 40px;
-  display: flex;
+    background-color: rgb(58, 78, 143);
+    height: 40px;
+    display: flex;
 }
-.appbar > span {
-  font-weight: 500;
-  font-size: 30px;
-  margin: auto;
-  color: aliceblue;
+
+.appbar>span {
+    font-weight: 500;
+    font-size: 30px;
+    margin: auto;
+    color: aliceblue;
 }
+
 .eqn_size {
-  margin-left: 40vw;
-  margin-top: 50px;
-  height: 50px;
-  width: 280px;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: rgb(196, 184, 184);
-  border: none;
-  outline: none;
+    margin-left: 40vw;
+    margin-top: 50px;
+    height: 50px;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(196, 184, 184);
+    border: none;
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    padding: 2%;
+}
+
+.btn {
+    width: 140px;
+    height: auto;
 }

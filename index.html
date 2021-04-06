@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Numerical Method</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="app">
         <div class="appbar"><span>Numerical Method</span></div>
-        <div class="container">
+        <!-- <div class="container">
             <input class="eqn_size" placeholder="Please first enter the number of equations." style="border: none; color: black;" type="number" min="2" max="9">
             <div class="inp_field">
 
             </div>
+        </div> -->
+        <div class="input-area">
+            <p><strong>Enter in the format: 2,3,4,12 <br> For e.g. <br>
+            13x+2y+3z=46<br>
+            2x+15y+z=33<br> 
+            x-y+10z=25<br> 
+            can be written as<br>
+            13,2,3,46<br>
+            2,15,1,33<br>
+            1,-1,10,25<br>
+        </strong>
+                <textarea class="textarea resize-ta" id="input-ar"></textarea></p>
         </div>
+        <div class="buttons">
+            <button class="btn" id="jacobi" type="submit"><label>Jacobi</label></button>
+            <button class="btn" id="sidel" type="submit"><label>Sidel</label></button>
+        </div>
+
     </div>
 </body>
 <script src="script.js"></script>
+
 </html>
